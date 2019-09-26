@@ -18,6 +18,10 @@ public class OperacionesBasicas {
         this.b = b;
     }
 
+    OperacionesBasicas() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int sumar() {
         if (a == 0 || b == 0) {
             return 0;

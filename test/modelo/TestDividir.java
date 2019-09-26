@@ -5,10 +5,21 @@
  */
 package modelo;
 
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+
 /**
  *
  * @author Fake Wings
  */
 public class TestDividir {
-    
+
+    @Test
+    public void testDividir() {
+        System.out.println("dividir");
+        OperacionesBasicas instance = new OperacionesBasicas(8, 0);
+        assertTrue(instance.dividir() == 0);
+
+    }
 }

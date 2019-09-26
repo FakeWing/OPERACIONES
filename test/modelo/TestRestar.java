@@ -5,9 +5,7 @@
  */
 package modelo;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
 import org.junit.Test;
 
 /**
@@ -21,7 +19,6 @@ public class TestRestar {
     public void testRestar() {
         System.out.println("restar");
         OperacionesBasicas instance = new OperacionesBasicas(1,9);
-
         assertTrue( instance.restar()==0);
   
     }
